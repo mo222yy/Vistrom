@@ -1,7 +1,119 @@
 @import './topBar/topBar';
 @import './nav/nav';
+@import './variables/variables';
 
 body {
     margin: 0;
 }
+
+.mainProduct {
+    margin: 0 auto;
+    max-height: 800px;
+    border-bottom: 1px solid black;
+    background-color: $lightgray;
+}
+
+.mainImg {
+    width: 50%; 
+    max-height: 800px;   
+}
+
+.mainInfo {
+    float: right;
+    width: 50%;
+}
+
+.newProduct {
+    background-color: $primary_color;
+    color: $secondary_color;
+    width: 12%;
+    font-family: $font;
+    text-align: center;
+    margin-top: 0;
+    display: inline-block;
+
+}
+
+.inStock {
+    color: $primary_color;
+    font-family: $font;
+    margin-top: 0;
+    margin-right: 2%;
+    float: right;
+}
+
+.brand {
+    display: block;
+    margin: 0 auto;
+}
+
+.productInfo {
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    font-family: $font;
+}
+
+.price {
+    font-weight: bold;;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: $radiobutton_width;
+    height: $radiobutton_height;
+    line-height: $radiobutton_height;
+    font-weight: bold;
+    border: 0.5px solid $primary_color;
+    background-color: $secondary_color;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+  
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+/* Create overlay */
+.selected {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $radiobutton_height;
+    width: $radiobutton_width;
+}
+  
+  /* On mouse-over, add a grey background color */
+.selected:hover {
+    background-color: #ccc;
+    opacity: 50%;
+}
+  
+  /* When the checkbox is checked, add a black background */
+.container input:checked ~ .selected {
+    background-color: $primary_color;
+    color: $secondary_color;
+}
+
+.addToCart {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: $primary_color;
+    color: $secondary_color;
+    font-family: $font;
+    height: $radiobutton_height;
+    width: 50%;
+    border: none;   
+}
+
 
