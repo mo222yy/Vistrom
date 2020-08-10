@@ -32,8 +32,7 @@ nav {
 nav a {
   text-decoration: none;
   margin-left: 3%;
-  color: black;
-  font-style: bold;
+  color: #1c1c1f;
 }
 
 .leftNav {
@@ -49,11 +48,15 @@ nav a {
 .logo {
   width: 19%;
   height: 60px;
-  border: 1px solid grey;
-  background-color: lightgray;
+  border: 1px solid gray;
+  background-color: #d8d8d8;
   color: gray;
   float: left;
   text-align: center;
+}
+
+.shoppingcart {
+  width: 20px;
 }
 
 body {
