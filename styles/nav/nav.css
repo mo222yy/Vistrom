@@ -1,0 +1,38 @@
+nav {
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  font-family: "abel";
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 3%;
+  color: black;
+  font-style: bold;
+}
+
+.leftNav {
+  float: left;
+  width: 40%;
+}
+
+.rightNav {
+  width: 40%;
+  float: left;
+}
+
+.logo {
+  width: 19%;
+  height: 60px;
+  border: 1px solid grey;
+  background-color: lightgray;
+  color: gray;
+  float: left;
+  text-align: center;
+}
+
+/*# sourceMappingURL=nav.css.map */
