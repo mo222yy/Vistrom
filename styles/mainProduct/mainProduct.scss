@@ -13,6 +13,8 @@
 .mainInfo {
     float: right;
     width: 50%;
+    max-height: $mainproduct_max_height;   
+
 }
 
 .newProduct {
@@ -22,7 +24,6 @@
     font-family: $font;
     text-align: center;
     margin-top: 0;
-    display: inline-block;
 
 }
 
