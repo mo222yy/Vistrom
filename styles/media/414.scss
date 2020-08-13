@@ -3,109 +3,126 @@
         font-size: 12px;
     }
 
-    .topBar  {
-        font-size: 9px;
-        height: 30px;
-    }
-    .topBar a {
-        font-size: 9px;
-        line-height: 30px;
-    }
+.topBar  {
+    font-size: 9px;
+    height: 30px;
+}
+.topBar a {
+    font-size: 9px;
+    line-height: 30px;
+}
 
-    /* MainProduct */
+/* MainProduct */
 
-    .mainImg {
-        width: 100%;
-        position: relative;
-    }
+.mainImg {
+    width: 100%;
+    position: relative;
+}
 
-    .newProduct {
-        width: 20%;
-        float: right;
+.newProduct {
+    width: 20%;
+    float: right;
+}
 
-    }
+.inStock {
+    float: left;
+}
 
-    .mainInfo {
-        width: 100%;
-    }
+.mainInfo {
+    width: 100%;
+}
 
-    .topInfo {
-        width: 100%;
-        margin-top: 15px;
-    }
-    .brand {
-        width: 20%;
-        margin-left: 40%;
-    }
+.topInfo {
+    width: 100%;
+    margin-top: 15px;
+}
+.brand {
+    width: 20%;
+    margin-left: 40%;
+}
 
-    .articleName {
-        width: 100%;
-    }
-    
-    .price {
-        width: 35%;
-        margin: 0 auto;
-    }
+.articleName {
+    width: 100%;
+}
 
-    .size {
-        width: 100%;
-    }
-    
-    .radioButtonDiv {
-        margin: 30px auto;
-    }
+.price {
+    width: 35%;
+    margin: 0 auto;
+}
 
-    .addToCart {
-        position: relative;
-    }
+.size {
+    width: 100%;
+}
 
-    /*accordion*/
-    .collapsible {
-        height: 50px;
-        text-align: center;
-    }
+.radioButtonDiv {
+    margin: 30px auto;
+}
 
-    /* MoreProducts */
+.addToCart {
+    position: relative;
+}
 
-    .otherProductsContainer {
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 100px;
-    }
+/*accordion*/
+.collapsible {
+    height: 50px;
+    text-align: center;
+}
 
-    .otherProduct {
-        width: 40%;
-        margin-left: 6.67%
-    }
+/* MoreProducts */
 
-    .newsletter {
-        width: 100%;
-    }
+.otherProductsContainer {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
-    .newsletterTextDiv {
-        width: 50%;
-        height: 80px;
-    }
+.imgLable {
+    color: white !important;
+}
+.otherProductsContainer a {
+    text-decoration: none;
+}
 
-    .newsletterHeader {
-        font-size: 1.2em;
-        bottom: 10;
-    }
+.otherProductsContainer p {
+    color: black;
+}
 
-    .emailDiv {
-        width: 40%;
-        height: 25px;
-        margin-left: 5%;
-    }
+.otherTopbar {
+    margin-top: 30px;
+}
+.otherProduct {
+    display: inline;
+}
 
-    .footerContainer {
-        width: 95%;
-        font-size: 1.2em;
-        text-align: center;
-    }
+.newsletter {
+    width: 100%;
+}
 
-    .footerBox {
-        width: 45%;
-    }
+.newsletterTextDiv {
+    width: 50%;
+    height: 80px;
+}
+
+.newsletterHeader {
+    font-size: 1.2em;
+    bottom: 10;
+}
+
+.emailDiv {
+    width: 40%;
+    height: 25px;
+    margin-left: 5%;
+}
+
+.footerContainer {
+    width: 95%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.footerBox {
+    width: 45%;
+}
+
 
 }

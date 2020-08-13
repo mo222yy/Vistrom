@@ -19,6 +19,9 @@
     width: 20%;
     float: right;
   }
+  .inStock {
+    float: left;
+  }
   .mainInfo {
     width: 100%;
   }
@@ -53,13 +56,24 @@
   }
   /* MoreProducts */
   .otherProductsContainer {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 100px;
   }
+  .imgLable {
+    color: white !important;
+  }
+  .otherProductsContainer a {
+    text-decoration: none;
+  }
+  .otherProductsContainer p {
+    color: black;
+  }
+  .otherTopbar {
+    margin-top: 30px;
+  }
   .otherProduct {
-    width: 40%;
-    margin-left: 6.67%;
+    display: inline;
   }
   .newsletter {
     width: 100%;
