@@ -1,1 +1,40 @@
-/* No CSS *//*# sourceMappingURL=nav.css.map */
+nav {
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  font-family: "abel";
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 3%;
+  color: #1c1c1f;
+}
+
+.leftNav {
+  float: left;
+  width: 40%;
+}
+
+.rightNav {
+  width: 40%;
+  float: left;
+}
+
+.logo {
+  width: 19%;
+  height: 60px;
+  border: 1px solid gray;
+  background-color: #d8d8d8;
+  color: gray;
+  float: left;
+  text-align: center;
+}
+
+.shoppingcart {
+  width: 20px;
+}
+/*# sourceMappingURL=nav.css.map */

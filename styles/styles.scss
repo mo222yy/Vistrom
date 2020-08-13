@@ -11,54 +11,6 @@ body {
     margin: 0 auto;
     background-color: $background_color;
     max-width: 1200px;
-    width: 1200px;
 }
 
-.grayText {
-    color: $lightgray;
-}
 
-.bold {
-    font-weight: bold;
-}
-
-nav {
-    height: 70px;
-    width: 100%;
-    line-height: $nav_height;
-    font-family: $font;
-    display: inline-block;
-    text-align: center;
-    border-bottom: 2px solid lightgray;
-
-}
-
-nav a {
-    text-decoration: none;
-    margin-left: 3%;
-    color: $primary_color;
-}
-
-.leftNav {
-    float:left;
-    width: $nav_links_width;
-}
-
-.rightNav {
-    width: $nav_links_width;
-    float: left;
-}
-
-.logo {
-    width: 19%;
-    height: 60px;
-    border: 1px solid gray;
-    background-color: $lightgray;
-    color: gray;
-    float: left;
-    text-align: center;
-}
-
-.shoppingcart {
-    width: 20px;
-}

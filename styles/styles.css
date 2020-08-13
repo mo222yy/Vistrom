@@ -19,6 +19,46 @@
   line-height: 35px;
 }
 
+nav {
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  font-family: "abel";
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 3%;
+  color: #1c1c1f;
+}
+
+.leftNav {
+  float: left;
+  width: 40%;
+}
+
+.rightNav {
+  width: 40%;
+  float: left;
+}
+
+.logo {
+  width: 19%;
+  height: 60px;
+  border: 1px solid gray;
+  background-color: #d8d8d8;
+  color: gray;
+  float: left;
+  text-align: center;
+}
+
+.shoppingcart {
+  width: 20px;
+}
+
 .mainProduct {
   margin: 0 auto;
   max-height: 800px;
@@ -78,6 +118,10 @@
   height: 25px;
   width: 50%;
   border: none;
+}
+
+.grayText {
+  color: #d8d8d8;
 }
 
 /*RADIOBUTTONS*/
@@ -305,11 +349,8 @@
   float: left;
 }
 
-.center {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+.middle {
+  margin-left: 4.5%;
 }
 
 .right {
@@ -334,7 +375,7 @@
   text-decoration: none;
   text-align: center;
   border: 2px solid #141527;
-  width: 250px;
+  width: 30%;
   height: 35px;
   line-height: 35px;
   color: #141527;
@@ -397,58 +438,13 @@
   text-align: center;
 }
 
-body {
-  margin: 0 auto;
-  background-color: #f9f9f9;
-  max-width: 1200px;
-  width: 1200px;
-}
-
-.grayText {
-  color: #d8d8d8;
-}
-
 .bold {
   font-weight: bold;
 }
 
-nav {
-  height: 70px;
-  width: 100%;
-  line-height: 70px;
-  font-family: "abel";
-  display: inline-block;
-  text-align: center;
-  border-bottom: 2px solid lightgray;
-}
-
-nav a {
-  text-decoration: none;
-  margin-left: 3%;
-  color: #1c1c1f;
-}
-
-.leftNav {
-  float: left;
-  width: 40%;
-}
-
-.rightNav {
-  width: 40%;
-  float: left;
-}
-
-.logo {
-  width: 19%;
-  height: 60px;
-  border: 1px solid gray;
-  background-color: #d8d8d8;
-  color: gray;
-  float: left;
-  text-align: center;
-}
-
-.shoppingcart {
-  width: 20px;
+body {
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  max-width: 1200px;
 }
 /*# sourceMappingURL=styles.css.map */

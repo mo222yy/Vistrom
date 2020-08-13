@@ -59,6 +59,10 @@
   border: none;
 }
 
+.grayText {
+  color: #d8d8d8;
+}
+
 /*RADIOBUTTONS*/
 .container {
   display: inline-block;

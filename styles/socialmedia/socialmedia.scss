@@ -4,10 +4,8 @@
     float: left;
 }
 
-.center {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%)
+.middle {
+    margin-left: 4.5%; 
 }
 
 .right {
@@ -25,8 +23,6 @@
     width: $bottom_width;
     height: 100%;
     margin: auto;
-    
-
 }
 
 .socialMedia a {
@@ -34,7 +30,7 @@
     text-decoration: none;
     text-align: center;
     border: 2px solid $button_color;
-    width: 250px;
+    width: 30%;
     height: $socialmedia_button_height;
     line-height: $socialmedia_button_height;
     color: $button_color;
