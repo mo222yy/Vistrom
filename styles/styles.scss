@@ -7,8 +7,11 @@
 @import './newsletter/newsletter';
 @import './socialmedia/socialmedia';
 @import './footer/footer';
+@import './media/950';
 @import './media/768';
-@import './media/414';
+@import './media/700';
+@import './media/500';
+
 
 
 body {
@@ -16,5 +19,3 @@ body {
     background-color: $background_color;
     max-width: 1200px;
 }
-
-

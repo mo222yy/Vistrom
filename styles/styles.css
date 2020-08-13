@@ -443,17 +443,7 @@ nav a {
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-  .otherProductsContainer {
-    margin-top: 5%;
-  }
-  .newsletterTextDiv {
-    height: 130px;
-  }
-  .emailButton, .email {
-    font-size: 9px;
-  }
-  /* MainProduct */
+@media screen and (max-width: 950px) {
   .mainInfo {
     font-size: 12px;
   }
@@ -502,7 +492,26 @@ nav a {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
+  .otherProductsContainer {
+    margin-top: 5%;
+  }
+  .newsletterTextDiv {
+    height: 130px;
+  }
+  .emailButton, .email {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .collapsible {
+    height: 30px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
   body {
     font-size: 12px;
   }

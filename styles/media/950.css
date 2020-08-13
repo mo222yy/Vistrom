@@ -1,0 +1,49 @@
+@media screen and (max-width: 950px) {
+  .mainInfo {
+    font-size: 12px;
+  }
+  .productInfo {
+    width: 100%;
+  }
+  .topInfo {
+    display: block;
+    height: 50px;
+  }
+  .brand {
+    float: left;
+    margin-left: 10%;
+  }
+  .articleName {
+    width: 50%;
+    float: right;
+  }
+  .price {
+    width: 100%;
+  }
+  .sizeContainer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    height: 30px;
+  }
+  .size {
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+  }
+  .radioButtonDiv {
+    width: 30%;
+    display: inline-block;
+  }
+  .addToCart {
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    top: -9px;
+    right: 3;
+  }
+}
+/*# sourceMappingURL=950.css.map */
