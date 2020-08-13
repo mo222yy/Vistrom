@@ -502,17 +502,98 @@ nav a {
   }
 }
 
+@media screen and (max-width: 414px) {
+  body {
+    font-size: 12px;
+  }
+  .topBar {
+    font-size: 9px;
+    height: 30px;
+  }
+  .topBar a {
+    font-size: 9px;
+    line-height: 30px;
+  }
+  /* MainProduct */
+  .mainImg {
+    width: 100%;
+    position: relative;
+  }
+  .newProduct {
+    width: 20%;
+    float: right;
+  }
+  .mainInfo {
+    width: 100%;
+  }
+  .topInfo {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .brand {
+    width: 20%;
+    margin-left: 40%;
+  }
+  .articleName {
+    width: 100%;
+  }
+  .price {
+    width: 35%;
+    margin: 0 auto;
+  }
+  .size {
+    width: 100%;
+  }
+  .radioButtonDiv {
+    margin: 30px auto;
+  }
+  .addToCart {
+    position: relative;
+  }
+  /*accordion*/
+  .collapsible {
+    height: 50px;
+    text-align: center;
+  }
+  /* MoreProducts */
+  .otherProductsContainer {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .otherProduct {
+    width: 40%;
+    margin-left: 6.67%;
+  }
+  .newsletter {
+    width: 100%;
+  }
+  .newsletterTextDiv {
+    width: 50%;
+    height: 80px;
+  }
+  .newsletterHeader {
+    font-size: 1.2em;
+    bottom: 10;
+  }
+  .emailDiv {
+    width: 40%;
+    height: 25px;
+    margin-left: 5%;
+  }
+  .footerContainer {
+    width: 95%;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .footerBox {
+    width: 45%;
+  }
+}
+
 body {
   margin: 0 auto;
   background-color: #f9f9f9;
   max-width: 1200px;
 }
-
-@media screen and (max-width: 414px) {
-  body {
-    font-size: 12px;
-  }
-}
-
-/* ---------------- HERE ---------------- */
 /*# sourceMappingURL=styles.css.map */
