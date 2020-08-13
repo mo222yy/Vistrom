@@ -7,10 +7,22 @@
 @import './newsletter/newsletter';
 @import './socialmedia/socialmedia';
 @import './footer/footer';
+@import './media/768';
+
+
 body {
     margin: 0 auto;
     background-color: $background_color;
     max-width: 1200px;
 }
+
+@media screen and (max-width:414px){
+    body {
+        font-size: 12px;
+    }
+}
+
+
+/* ---------------- HERE ---------------- */
 
 

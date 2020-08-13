@@ -1,45 +1,49 @@
 @import '../variables/variables';
 
 .collapsibleDiv {
-    width: $accordion_width;
-    margin-left: 5%;
+  width: $accordion_width;
+  margin-left: 5%;
+  
 }
 .collapsible {
-    background-color: $background_color;
-    color: $lightgray;
-    font-family: $font;
-    font-size: 6px;
-    font-weight: bold;
-    cursor: pointer;
-    width: 100%;
-    padding: 16px;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    border: none;
-    border-bottom: $accordion_border;
-    border-top: $accordion_border; 
-  }
-  
+  background-color: $background_color;
+  color: $lightgray;
+  font-family: $font;
+  font-size: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  padding: 16px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border: none;
+  border-bottom: $accordion_border;
+  border-top: $accordion_border; 
+}
+
 .active, .collapsible:hover {
-    background-color: $button_color;
-  }
-  
+  background-color: $button_color;
+}
+
 .collapsible:after {
-    content: '\2C5';
-    color: $lightgray;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2C4";
-  }
-  
-  .content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
+  content: '\2C5';
+  color: $lightgray;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2C4";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+

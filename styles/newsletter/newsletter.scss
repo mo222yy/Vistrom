@@ -1,6 +1,5 @@
 @import '../variables/variables';
 
-
 .newsletter {
     position: relative;    
     width: $bottom_width;
@@ -8,26 +7,26 @@
 }
 
 .newsletter img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .newsletterTextDiv {
     position: absolute;
     bottom: 15%;
-    left: 20%;
+    left: 5%;
     color: white;
     font-family: $font;
     text-align: center;
-    width: 25%;
+    width: 40%;
 }
 
 .newsletterHeader {
-    font-size: 36px;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 .newsletterText {
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .emailDiv {
@@ -44,13 +43,12 @@
     height: 100%;
     border: none;
 }
-
 .emailButton {
     font-family: $font;
     background-color: $button_color;
     color: white;
     width: 35%;
-    height: 100%;
+    height: 120%;
     border: none;
-    margin-left: -3px; 
+    margin-left: -1.5%; 
 }
