@@ -19,46 +19,6 @@
   line-height: 35px;
 }
 
-nav {
-  height: 70px;
-  width: 100%;
-  line-height: 70px;
-  font-family: "abel";
-  display: inline-block;
-  text-align: center;
-  border-bottom: 2px solid lightgray;
-}
-
-nav a {
-  text-decoration: none;
-  margin-left: 3%;
-  color: #1c1c1f;
-}
-
-.leftNav {
-  float: left;
-  width: 40%;
-}
-
-.rightNav {
-  width: 40%;
-  float: left;
-}
-
-.logo {
-  width: 19%;
-  height: 60px;
-  border: 1px solid gray;
-  background-color: #d8d8d8;
-  color: gray;
-  float: left;
-  text-align: center;
-}
-
-.shoppingcart {
-  width: 20px;
-}
-
 .mainProduct {
   margin: 0 auto;
   max-height: 800px;
@@ -212,37 +172,17 @@ nav a {
   transition: max-height 0.2s ease-out;
 }
 
-body {
-  margin: 0;
-  background-color: #f9f9f9;
-}
-
-.grayText {
-  color: #d8d8d8;
-}
-
-.leftTopCorner {
-  margin-top: 0;
-  float: left;
-}
-
-.rightTopCorner {
-  margin-top: 0;
-  float: right;
-  text-decoration: none;
-  color: #141527;
-  margin-right: 2.5%;
-}
-
-.otherProductsDiv {
+.otherProductsContainer {
+  display: block;
+  margin: 50px auto;
   width: 80%;
-  margin: 200px auto;
+  display: block;
   font-family: "abel";
 }
 
-.otherProductsContainer {
-  width: 100%;
-  float: left;
+.otherTopbar {
+  height: 20px;
+  margin-bottom: 20px;
 }
 
 .otherProduct {
@@ -291,5 +231,224 @@ body {
 .redText {
   color: red;
   font-weight: bold;
+}
+
+.leftTopCorner {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.rightTopCorner {
+  margin-top: 0;
+  float: right;
+  text-decoration: none;
+  color: #141527;
+  margin-right: 2.5%;
+}
+
+.newsletter {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.newsletter img {
+  width: 100%;
+}
+
+.newsletterTextDiv {
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+  color: white;
+  font-family: "abel";
+  text-align: center;
+  width: 25%;
+}
+
+.newsletterHeader {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.newsletterText {
+  font-size: 18px;
+}
+
+.emailDiv {
+  position: absolute;
+  bottom: 35%;
+  left: 55%;
+  width: 25%;
+  height: 10%;
+}
+
+.email {
+  font-family: "abel";
+  width: 60%;
+  height: 100%;
+  border: none;
+}
+
+.emailButton {
+  font-family: "abel";
+  background-color: #141527;
+  color: white;
+  width: 35%;
+  height: 100%;
+  border: none;
+  margin-left: -3px;
+}
+
+.left {
+  float: left;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.right {
+  float: right;
+}
+
+.socialMedia {
+  background-color: #d8d8d8;
+  height: 75px;
+  line-height: 75px;
+  margin-top: 25px;
+}
+
+.socialMediaContainer {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.socialMedia a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #141527;
+  width: 250px;
+  height: 35px;
+  line-height: 35px;
+  color: #141527;
+  font-family: "abel";
+  margin-top: 20px;
+}
+
+.footerBackground {
+  background-color: black;
+}
+
+.footerContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footerHeader {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.footerBox {
+  font-family: "abel";
+  display: inline-block;
+  width: 24%;
+  color: #d8d8d8;
+}
+
+.footerBox a {
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+  color: #d8d8d8;
+}
+
+.footerBox p {
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+  color: #d8d8d8;
+}
+
+.seo {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: gray;
+  font-family: arial;
+  text-align: center;
+}
+
+.vistromContainer {
+  height: 50px;
+  line-height: 50px;
+}
+
+.vistrom {
+  color: gray;
+  font-family: "abel";
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  width: 1200px;
+}
+
+.grayText {
+  color: #d8d8d8;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  font-family: "abel";
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 3%;
+  color: #1c1c1f;
+}
+
+.leftNav {
+  float: left;
+  width: 40%;
+}
+
+.rightNav {
+  width: 40%;
+  float: left;
+}
+
+.logo {
+  width: 19%;
+  height: 60px;
+  border: 1px solid gray;
+  background-color: #d8d8d8;
+  color: gray;
+  float: left;
+  text-align: center;
+}
+
+.shoppingcart {
+  width: 20px;
 }
 /*# sourceMappingURL=styles.css.map */

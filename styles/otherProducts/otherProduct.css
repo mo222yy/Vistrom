@@ -1,0 +1,75 @@
+.otherProductsContainer {
+  display: block;
+  margin: 50px auto;
+  width: 80%;
+  display: block;
+  font-family: "abel";
+}
+
+.otherTopbar {
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.otherProduct {
+  display: inline-block;
+  margin-right: 1.3%;
+  width: 23%;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+}
+
+.imgLable {
+  position: absolute;
+  font-size: 9px;
+  float: left;
+  background-color: #141527;
+  color: white;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.otherProductImg {
+  width: 100%;
+}
+
+.otherProductBrand {
+  font-weight: bold;
+}
+
+.otherProductName {
+  color: #d8d8d8;
+}
+
+.otherProductPrice {
+  font-weight: bold;
+}
+
+.lable {
+  float: left;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.redText {
+  color: red;
+  font-weight: bold;
+}
+
+.leftTopCorner {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.rightTopCorner {
+  margin-top: 0;
+  float: right;
+  text-decoration: none;
+  color: #141527;
+  margin-right: 2.5%;
+}
+/*# sourceMappingURL=otherProduct.css.map */

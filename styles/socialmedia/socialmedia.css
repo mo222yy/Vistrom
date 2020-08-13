@@ -1,0 +1,41 @@
+.left {
+  float: left;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.right {
+  float: right;
+}
+
+.socialMedia {
+  background-color: #d8d8d8;
+  height: 75px;
+  line-height: 75px;
+  margin-top: 25px;
+}
+
+.socialMediaContainer {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.socialMedia a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #141527;
+  width: 250px;
+  height: 35px;
+  line-height: 35px;
+  color: #141527;
+  font-family: "abel";
+  margin-top: 20px;
+}
+/*# sourceMappingURL=socialmedia.css.map */

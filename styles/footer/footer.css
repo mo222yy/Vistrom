@@ -1,0 +1,55 @@
+.footerBackground {
+  background-color: black;
+}
+
+.footerContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footerHeader {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.footerBox {
+  font-family: "abel";
+  display: inline-block;
+  width: 24%;
+  color: #d8d8d8;
+}
+
+.footerBox a {
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+  color: #d8d8d8;
+}
+
+.footerBox p {
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+  color: #d8d8d8;
+}
+
+.seo {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: gray;
+  font-family: arial;
+  text-align: center;
+}
+
+.vistromContainer {
+  height: 50px;
+  line-height: 50px;
+}
+
+.vistrom {
+  color: gray;
+  font-family: "abel";
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

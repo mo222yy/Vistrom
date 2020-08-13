@@ -1,0 +1,54 @@
+.newsletter {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.newsletter img {
+  width: 100%;
+}
+
+.newsletterTextDiv {
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+  color: white;
+  font-family: "abel";
+  text-align: center;
+  width: 25%;
+}
+
+.newsletterHeader {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.newsletterText {
+  font-size: 18px;
+}
+
+.emailDiv {
+  position: absolute;
+  bottom: 35%;
+  left: 55%;
+  width: 25%;
+  height: 10%;
+}
+
+.email {
+  font-family: "abel";
+  width: 60%;
+  height: 100%;
+  border: none;
+}
+
+.emailButton {
+  font-family: "abel";
+  background-color: #141527;
+  color: white;
+  width: 35%;
+  height: 100%;
+  border: none;
+  margin-left: -3px;
+}
+/*# sourceMappingURL=newsletter.css.map */

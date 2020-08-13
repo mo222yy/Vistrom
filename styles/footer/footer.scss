@@ -1,0 +1,57 @@
+@import '../variables/variables';
+
+.footerBackground {
+    background-color: black;
+}
+
+.footerContainer {
+    width: $bottom_width;
+    margin: 0 auto;
+}
+
+.footerHeader {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.footerBox {
+    font-family: $font;
+    display: inline-block;
+    width: 24%;
+    color: $lightgray;
+
+}
+
+.footerBox a  {
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    color: $lightgray;
+}
+
+.footerBox p  {
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    color: $lightgray;
+}
+
+.seo {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-family: arial;
+    text-align: center;
+}
+
+.vistromContainer {
+    height: 50px;
+    line-height: 50px;
+}
+.vistrom {
+    color: gray;
+    font-family: $font;
+    text-align: center;
+}
+

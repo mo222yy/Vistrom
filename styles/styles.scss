@@ -3,83 +3,62 @@
 @import './variables/variables';
 @import './mainProduct/mainProduct';
 @import './accordion/accordion';
-
+@import './otherProducts/otherProduct';
+@import './newsletter/newsletter';
+@import './socialmedia/socialmedia';
+@import './footer/footer';
 body {
-    margin: 0;
+    margin: 0 auto;
     background-color: $background_color;
+    max-width: 1200px;
+    width: 1200px;
 }
 
 .grayText {
     color: $lightgray;
 }
 
-.leftTopCorner {
-    margin-top:0;
-    float: left;
+.bold {
+    font-weight: bold;
 }
 
-.rightTopCorner {
-    margin-top:0;
-    float: right;
-    text-decoration: none;
-    color: $button_color;
-    margin-right: 2.5%;
-}
-
-.otherProductsDiv {
-    width: 80%;
-    margin: 200px auto;
+nav {
+    height: 70px;
+    width: 100%;
+    line-height: $nav_height;
     font-family: $font;
-}
-
-.otherProductsContainer {
-    width: 100%;
-    float: left;
-}
-
-.otherProduct {
     display: inline-block;
-    margin-right: 1.3%;
-    width: 23%;
     text-align: center;
-    font-size: 12px;
-    position: relative;
+    border-bottom: 2px solid lightgray;
+
 }
 
-.imgLable {
-    position: absolute;
-    font-size: 9px;
-    float: left;
-    background-color: $button_color;
-    color: white;
-    margin-top: 0;
-    padding: 5px;
-}
-.otherProductImg {
-    width: 100%;
+nav a {
+    text-decoration: none;
+    margin-left: 3%;
+    color: $primary_color;
 }
 
-.otherProductBrand {
- font-weight: bold;
+.leftNav {
+    float:left;
+    width: $nav_links_width;
 }
 
-.otherProductName {
- color: $lightgray;
-}
-
-.otherProductPrice {
-    font-weight: bold;
-}
-
-.lable {
+.rightNav {
+    width: $nav_links_width;
     float: left;
 }
 
-.strikethrough {
-    text-decoration: line-through;
+.logo {
+    width: 19%;
+    height: 60px;
+    border: 1px solid gray;
+    background-color: $lightgray;
+    color: gray;
+    float: left;
+    text-align: center;
 }
 
-.redText {
-    color: red;
-    font-weight: bold;
+.shoppingcart {
+    width: 20px;
 }
