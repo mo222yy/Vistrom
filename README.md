@@ -3,6 +3,11 @@
 ## Frågor att besvara
 
 #### Varför är det generellt en bra idé att placera CSS \<link>s mellan \<head>\</head> och JS \<script>s precis innan \</body>? Känner du till några undantag?
+CCS läggs mellan head för att ladda stylen innan den börjar rendera html elementen. Man undivker en blank laddningssida samt att webbläsaren inte behöver rendera om element.
+
+Scriptet läggs precis innan \</body> för att det ska ladda in Javascripten sist, annars kan det upplevas som väldigt slött om man har mycket Javascript och det laddas in före html & css.
+
+Nej jag känner inte till några undantag.
 
 #### Beskriv skillnaderna mellan en cookie, sessionStorage och localStorage.
 
