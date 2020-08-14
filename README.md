@@ -2,7 +2,7 @@
 
 ## Frågor att besvara
 
-#### Varför är det generellt en bra idé att placera CSS <link>s mellan <head></head> och JS <script>s precis innan </body>? Känner du till några undantag?
+#### Varför är det generellt en bra idé att placera CSS \<link>s mellan \<head>\</head> och JS \<script>s precis innan \</body>? Känner du till några undantag?
 
 #### Beskriv skillnaderna mellan en cookie, sessionStorage och localStorage.
 
