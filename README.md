@@ -24,4 +24,13 @@ Vet ej, aldrig provat men ett cross browser testing verktyg kanske? :)
 Generellt sett är väl ID'n till för att märka endast ett element medans klasser kan användas till en eller flera.
 
 #### Vissa bildfiler är i “fel” filformat. Byt gärna filformat till det du anser är bäst samt redogör varför.
+Bytte vissa bilder till JPG vilket ska vara bättre för "verklighetstrogna" bilder pga komprimering. PNG som det var innan ska vara bättre för illustrationer och texter.
 
+#### Koda din CSS med en preprocessor, förslagsvis Sass och beskriv fördelarna samt nackdelarna.
+Fördelarna är många och jag känner antagligen inte till alla, men det blir väl lite enklare att dela upp sin kod i olika filer samt att kunna skapa variabler underlättar en hel del. Nackdelar känner jag inte till några.
+
+------------------------------------------------------------------------------------------------------------
+
+## Notes
+Det var första gången jag skapade en responsiv sida, inser redan nu att jag kunde gjort det lite smidigare.
+Började med att skapa media queries för ipad och iphone ( i chromes utvecklingsverktyg ) istället för att bara börja stort och jobba mig nedåt. 
