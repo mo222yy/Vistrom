@@ -34,3 +34,5 @@ Fördelarna är många och jag känner antagligen inte till alla, men det blir v
 ## Notes
 Det var första gången jag skapade en responsiv sida, inser redan nu att jag kunde gjort det lite smidigare.
 Började med att skapa media queries för ipad och iphone ( i chromes utvecklingsverktyg ) istället för att bara börja stort och jobba mig nedåt. 
+Inser att allt gällande det responsiva inte är perfekt men jag får nöja mig här då jag vill lämna in det idag. 
+Tack för mig och trevlig helg! 
